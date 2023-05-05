@@ -2,11 +2,7 @@ const checkMail = (email) => {
   return email.toString().includes("@")
 };
 
-const userName = () => {
-  return (
-      <input type="text" />
-    );
-};
+const userName = () => <input type="text" />;
 
 module.exports = {
   checkMail,
