@@ -1,10 +1,5 @@
-const checkMail = (email) => {
-  return email.toString().includes("@")
+export const checkMail = (email) => {
+    return email.toString().includes("@");
 };
 
-const userName = () => <input type="text" />;
-
-module.exports = {
-  checkMail,
-  userName
-};
+export const userName = () => <input type="text" />;
