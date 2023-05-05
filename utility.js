@@ -1,1 +1,3 @@
-export const userName = () => <input type="text" />;
+export const checkEmail = (email) => {
+ return email.includes("@"); 
+}
