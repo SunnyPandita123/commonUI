@@ -5,5 +5,5 @@ export const checkMail = (email) => {
 export const UserName = () => {
   return (
       <input type="text" />
-    }
+    );
 }
